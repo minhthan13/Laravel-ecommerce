@@ -25,6 +25,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        View::composer(['v_left'],'App\Http\ViewComposers\CateComposer');
+        View::composer(['v_left'],'App\Http\Composers\CateComposer');
     }
 }

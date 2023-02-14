@@ -1,5 +1,5 @@
 <?php
-    namespace App\Http\ViewComposers;
+    namespace App\Http\Composers;
     use Illuminate\View\View;
     use Illuminate\Support\Facades\DB;
     
