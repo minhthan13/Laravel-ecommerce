@@ -10,6 +10,7 @@ class SanphamController extends Controller
     public function home(){
         $query = DB::table("san_pham")
             ->select('san_pham.Tensp','san_pham.Dongia','san_pham.Hinh','san_pham.Ngaytao','san_pham.Maloai')
+            ->orderBy('san_pham.Dongia','DESC')
             ->get();
         return view('homepage')->with(['ds'=>$query]);
     }
