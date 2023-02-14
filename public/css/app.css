@@ -1,0 +1,19 @@
+ul li {
+    color: #094067;
+    font-size: 1.2em;
+    padding: 0 2em;
+    /* list-style: none; */
+}
+ul li:hover {
+    color: #04141f;
+    cursor: pointer;
+}
+header {
+    background-color: #3da9fc;
+}
+h1 {
+    color: #094067;
+}
+a {
+    text-decoration: none;
+}
