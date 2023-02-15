@@ -22,7 +22,7 @@
         
         <form class="d-inline-flex" role="search" action="find-price" method="POST">
             {{ csrf_field() }}
-            <input class="form-control me-2" type="number" placeholder="Tìm theo giá" aria-label="Search" name="price" required>
+            <input class="form-control me-2" type="text" placeholder="Tìm theo giá" aria-label="Search" name="price" value="{{ isset($price)?$price:'' }}" required>
             <button class="btn btn-outline-primary" type="submit">Tìm</button>
         </form>
         <div>
@@ -34,5 +34,6 @@
                 <a href="/add">Thêm Sản Phẩm</a>
             </div>
         </div>
+       
         
 </div>

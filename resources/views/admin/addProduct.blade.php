@@ -9,7 +9,7 @@
         <div class="form-label">Tên Sản Phẩm
             <input type="text" name="tensp" class="form-control">
         </div>
-        <div class="form-label">Giá<input type="numble" name="gia" class="form-control"></div>
+        <div class="form-label">Giá<input type="numble" name="gia" class="form-control" pattern="/^[0-9]+$/"></div>
         <div class="form-label">Ngày Tạo<input type="date" name="ngay" class="form-control"></div>
         <div class="form-label">Phân Loại
             <select name="maloai" class="form-select">
