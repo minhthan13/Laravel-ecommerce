@@ -25,6 +25,14 @@
             <input class="form-control me-2" type="number" placeholder="Tìm theo giá" aria-label="Search" name="price" required>
             <button class="btn btn-outline-primary" type="submit">Tìm</button>
         </form>
-        
+        <div>
+
+            <div class="addProduct d-inline-block">
+                <a href="/list">Danh Sách Sản Phẩm</a>
+            </div>
+            <div class="addProduct d-inline-block">
+                <a href="/add">Thêm Sản Phẩm</a>
+            </div>
+        </div>
         
 </div>

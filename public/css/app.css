@@ -17,3 +17,15 @@ h1 {
 a {
     text-decoration: none;
 }
+.addProduct {
+    padding: 0.2em 1em;
+    border: #2ca8be solid 1px;
+    background-color: #1c94da;
+    border-radius: 10px 10px;
+}
+.addProduct a {
+    color: aliceblue;
+    display: block;
+    /* padding-top: 5px; */
+    font-size: 18px;
+}

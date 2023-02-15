@@ -11,7 +11,7 @@
               <h5 class="card-title">{{$d->Tensp}}</h5>
               <div class="pb-1">{{number_format($d->Dongia)}} VNĐ</div>
               
-              <a href="#" class="btn btn-primary">Thêm</a>
+              <a href="#" class="btn btn-primary">ADD CART</a>
             </div>
           </div>
 

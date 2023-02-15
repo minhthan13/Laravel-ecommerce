@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SanphamController;
 use App\Http\Controllers\SearchController;
+use App\Http\Controllers\addProductController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,5 +18,11 @@ use App\Http\Controllers\SearchController;
 
 Route::get('/',[SanphamController::class,'home']);
 Route::get('/product/{id}.html', [SanphamController::class, "product"]);
+//tìm sp
 Route::post('/find-price', [SearchController::class, "search"]);
 Route::post('product/find-price', [SearchController::class, "search"]);
+//danh sách sp
+Route::get('/list',[addProductController::class,'listPro']);
+//thêm sp
+Route::get('/add',[addProductController::class,'addPro']);
+Route::post('/post-product',[addProductController::class,'postPro']);
